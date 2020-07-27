@@ -1,0 +1,47 @@
+div {
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+body {
+    margin: 0 auto;
+    width: 50%;
+    font-family: Verdana;
+}
+
+li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ul > li > ul {
+    display: none;
+}
+
+ul {
+    border-radius: 5px;
+    margin-right:10px;
+    border-color: black;
+    border-style:solid;
+    list-style: none;
+}
+
+li > ul {
+    margin-top:15px;
+}
+
+li.no_child {
+    color:black;
+}
+li.child {
+    color:blue;
+}
+
+.current {
+    background-color: #eee;
+}
